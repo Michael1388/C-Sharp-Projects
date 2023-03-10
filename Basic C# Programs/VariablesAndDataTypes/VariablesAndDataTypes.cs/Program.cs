@@ -56,7 +56,13 @@ namespace VariablesAndDataTypes.cs
             Console.WriteLine(rainingStatus);
             Console.ReadLine();
 
-            
+            int num1 = 5;
+            int num2 = 7;
+            int total = num1 + num2;
+            Console.WriteLine(total);
+            Console.ReadLine();
+
+
 
 
         }
