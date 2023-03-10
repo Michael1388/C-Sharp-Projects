@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\bin\Debug\VariablesAndDataTypes.cs.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\bin\Debug\VariablesAndDataTypes.cs.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\bin\Debug\VariablesAndDataTypes.cs.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\obj\Debug\VariablesAndDataTypes.cs.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\obj\Debug\VariablesAndDataTypes.cs.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\obj\Debug\VariablesAndDataTypes.cs.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\VariablesAndDataTypes\VariablesAndDataTypes.cs\obj\Debug\VariablesAndDataTypes.cs.pdb

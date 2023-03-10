@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\bin\Debug\TADailyReport.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\bin\Debug\TADailyReport.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\bin\Debug\TADailyReport.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\obj\Debug\TADailyReport.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\obj\Debug\TADailyReport.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\obj\Debug\TADailyReport.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TADailyReport\TADailyReport\obj\Debug\TADailyReport.pdb
