@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\bin\Debug\MathComparisonOperations1.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\bin\Debug\MathComparisonOperations1.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\bin\Debug\MathComparisonOperations1.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\obj\Debug\MathComparisonOperators1.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\obj\Debug\MathComparisonOperators1.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\obj\Debug\MathComparisonOperations1.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperations1\MathComparisonOperations1\obj\Debug\MathComparisonOperations1.pdb

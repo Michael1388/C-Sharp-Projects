@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\bin\Debug\ConsoleAppAssignment185.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\bin\Debug\ConsoleAppAssignment185.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\bin\Debug\ConsoleAppAssignment185.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\obj\Debug\ConsoleAppAssignment185.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\obj\Debug\ConsoleAppAssignment185.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\obj\Debug\ConsoleAppAssignment185.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ConsoleAppAssignment185\ConsoleAppAssignment185\obj\Debug\ConsoleAppAssignment185.pdb
