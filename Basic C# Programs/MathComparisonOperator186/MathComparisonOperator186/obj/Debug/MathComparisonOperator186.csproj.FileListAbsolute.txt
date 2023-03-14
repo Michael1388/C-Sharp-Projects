@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\bin\Debug\MathComparisonOperator186.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\bin\Debug\MathComparisonOperator186.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\bin\Debug\MathComparisonOperator186.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\obj\Debug\MathComparisonOperator186.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\obj\Debug\MathComparisonOperator186.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\obj\Debug\MathComparisonOperator186.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MathComparisonOperator186\MathComparisonOperator186\obj\Debug\MathComparisonOperator186.pdb
