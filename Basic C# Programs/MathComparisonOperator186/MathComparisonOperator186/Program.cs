@@ -42,7 +42,7 @@ namespace MathComparisonOperator186
             bool boolresult = multiply1 > multiply2;    // using boolean data type compare Salariy of "Person 1" or var "multiply1 being greater than "Person 2" or var "multiply2 and store result in var "boolresult"
             Console.WriteLine("Answer: " + boolresult); // print to console the result of "boolresult" based on input data represented by variables in preceeding line. 
 
-            Console.ReadLine();
+            Console.ReadLine(); //keeps console window open until closed by user 
         }
     }
 }
