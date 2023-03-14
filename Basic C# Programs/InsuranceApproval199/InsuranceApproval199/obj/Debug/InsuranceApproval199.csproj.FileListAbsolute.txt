@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\bin\Debug\InsuranceApproval199.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\bin\Debug\InsuranceApproval199.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\bin\Debug\InsuranceApproval199.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\obj\Debug\InsuranceApproval199.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\obj\Debug\InsuranceApproval199.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\obj\Debug\InsuranceApproval199.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\InsuranceApproval199\InsuranceApproval199\obj\Debug\InsuranceApproval199.pdb
