@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\bin\Debug\SwitchCaseBreak.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\bin\Debug\SwitchCaseBreak.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\bin\Debug\SwitchCaseBreak.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\obj\Debug\SwitchCaseBreak.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\obj\Debug\SwitchCaseBreak.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\obj\Debug\SwitchCaseBreak.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchCaseBreak\SwitchCaseBreak\obj\Debug\SwitchCaseBreak.pdb
