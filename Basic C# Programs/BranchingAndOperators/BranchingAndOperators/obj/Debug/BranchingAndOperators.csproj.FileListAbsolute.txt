@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\bin\Debug\BranchingAndOperators.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\bin\Debug\BranchingAndOperators.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\bin\Debug\BranchingAndOperators.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\obj\Debug\BranchingAndOperators.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\obj\Debug\BranchingAndOperators.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\obj\Debug\BranchingAndOperators.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\BranchingAndOperators\BranchingAndOperators\obj\Debug\BranchingAndOperators.pdb
