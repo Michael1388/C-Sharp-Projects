@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\bin\Debug\ArrayAssignment242.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\bin\Debug\ArrayAssignment242.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\bin\Debug\ArrayAssignment242.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\obj\Debug\ArrayAssignment242.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\obj\Debug\ArrayAssignment242.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\obj\Debug\ArrayAssignment242.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ArrayAssignment242\ArrayAssignment242\obj\Debug\ArrayAssignment242.pdb
