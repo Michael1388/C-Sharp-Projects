@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\bin\Debug\StringAssignment233.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\bin\Debug\StringAssignment233.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\bin\Debug\StringAssignment233.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\obj\Debug\StringAssignment233.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\obj\Debug\StringAssignment233.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\obj\Debug\StringAssignment233.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringAssignment233\StringAssignment233\obj\Debug\StringAssignment233.pdb
