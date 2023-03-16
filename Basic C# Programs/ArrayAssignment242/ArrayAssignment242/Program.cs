@@ -17,14 +17,17 @@ namespace ArrayAssignment242
             int viewNum1 = Convert.ToInt32(userinput1);   // convert string "userinput1" to int(eger) and store as variable "viewNum1" 
             string[] stringArray1 = { "Egg", "Yolk", "Green Onions", "Chicken Broth", "Ginger", "Garlic" };  // create string array and store in variable "stringArray1"
 
-            if (viewNum1 > 5)   //if statement returns comment if user selects an index that doesn’t exist
+            if (viewNum1 < 0 || viewNum1 > 5)  //if statement returns comment if user selects an index that doesn’t exist
             {
-                Console.WriteLine("Choose a different number, below 6 please.");   // write to console for user to choose a different number 
-                viewNum1 = Convert.ToInt32(Console.ReadLine());   // store new choice in variable "viewNum1"
+                Console.WriteLine("That choice does not exist.");   // write to console for error "does not exist"
+                //viewNum1 = Convert.ToInt32(Console.ReadLine());   // store new choice in variable "viewNum1" --> needs a while loop..will work on later
 
             }
+            else
+           
+               Console.WriteLine(stringArray1[viewNum1]); // write user choice to console
 
-            Console.WriteLine(stringArray1[viewNum1]); // write user choice to console
+
 
 
 
@@ -37,12 +40,13 @@ namespace ArrayAssignment242
             int viewNum2 = Convert.ToInt32(userinput2);  // convert string "userinput2" to int(eger) and store as variable "viewNum2" 
             int[] numArray2 = { 100, 32, 15, 200, 525, 60, 88, 575 };  // create integer array and store in variable "numArray2"
 
-            if (viewNum2 > 7)   //if statement returns comment if user selects an index that doesn’t exist
+            if (viewNum2 < 0 || viewNum2 > 7)   //if statement returns comment if user selects an index that doesn’t exist
             {
-                Console.WriteLine("Choose a different number, below 8 please.");    // write to console for user to choose a different number 
-                    viewNum2 = Convert.ToInt32(Console.ReadLine()); // store new choice in variable "viewNum2"
+                Console.WriteLine("That choice does not exist.");    // write to console for error "does not exist"
+                //viewNum2 = Convert.ToInt32(Console.ReadLine()); // store new choice in variable "viewNum2" --> needs a while loop..will work on later
 
             }
+            else
 
             Console.WriteLine(numArray2[viewNum2]); // write user choice to console
 
@@ -62,8 +66,16 @@ namespace ArrayAssignment242
             stringList.Add("real");
             stringList.Add("human.");
 
+            if (viewNum3 < 0 || viewNum3 > 6)   //if statement returns comment if user selects an index that doesn’t exist
+            {
+                Console.WriteLine("That choice does not exist.");    // write to console for error "does not exist"
+                //viewNum3 = Convert.ToInt32(Console.ReadLine()); // store new choice in variable "viewNum3" --> needs a while loop..will work on later
 
-            Console.WriteLine(stringList[viewNum3]); // write user choice to console
+            }
+            else
+
+
+                Console.WriteLine(stringList[viewNum3]); // write user choice to console
 
 
             Console.ReadLine(); // keeps console open until closed by user....// && this concludes our program for today, thank you for participating :)
