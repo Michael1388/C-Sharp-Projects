@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\bin\Debug\StringsIntegersAssignment263.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\bin\Debug\StringsIntegersAssignment263.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\bin\Debug\StringsIntegersAssignment263.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\obj\Debug\StringsIntegersAssignment263.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\obj\Debug\StringsIntegersAssignment263.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\obj\Debug\StringsIntegersAssignment263.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\StringsIntegersAssignment263\StringsIntegersAssignment263\obj\Debug\StringsIntegersAssignment263.pdb

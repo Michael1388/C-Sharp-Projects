@@ -120,6 +120,33 @@ class Program
         //// ?? END uncecessary code commented out 
         ///
 
+        //1 Iterate through a string array and add user input to the end of each array string
+
+        Console.WriteLine("Enter your name: "); // write to screen, query user for input
+        string useName = Console.ReadLine(); // store user input in string variable "useName"
+
+        string[] names1 = { "Michael", "Jesse", "Erik" }; // create string array 
+
+        for (int p = 0; p < names1.Length; p++)  // for loop to iterate through the string array
+        {
+            if (names1[p] == names1[p]) // if statement to call the values of our array
+            {
+                Console.WriteLine(names1[p] + " + " + useName); // write to console contents of variable "names1"
+                                                                // and integer var "p" or  "names1[p]" plus variable "useName" 
+            }
+        }
+
+
+        // 2. Create and infinte loop
+
+        // int x = 1; // UNCOMMENT TO VIEW INFINITE LOOP
+        while (x > 2)// infinite loop corrected from COMMENT OUT TO VIEW INFINITE LOOP
+                     // (x == 1) which is an infinite loop UNCOMMENT TO VIEW INFINITE LOOP
+        {
+            Console.WriteLine("ahhhhhhhhhhhh!!!!!!!!!!!!!!!!"); //if  infinite loop is run, this prints to screen
+
+        }
+
         // 3 Loop comparisons
 
         // interate through an integer array and compare with < operator
