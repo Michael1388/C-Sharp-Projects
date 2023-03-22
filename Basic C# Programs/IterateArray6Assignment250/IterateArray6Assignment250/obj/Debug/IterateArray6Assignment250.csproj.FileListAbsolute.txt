@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\bin\Debug\IterateArray6Assignment250.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\bin\Debug\IterateArray6Assignment250.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\bin\Debug\IterateArray6Assignment250.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\obj\Debug\IterateArray6Assignment250.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\obj\Debug\IterateArray6Assignment250.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\obj\Debug\IterateArray6Assignment250.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\IterateArray6Assignment250\IterateArray6Assignment250\obj\Debug\IterateArray6Assignment250.pdb
