@@ -47,7 +47,32 @@ namespace CallingMethodsAssignment
         //    String builtString = "I am going to preform a dance of " + danceType;
         //    return builtString;
         //}
+        //public static String Dance(String danceType)   // Create int method SubOne, assign parameter int "userNum" 
+        //{
+        //    String builtString = "I am going to preform a STRING dance of " + danceType;
+        //    return builtString;
+        //}
+
+        //public static String Dance(int danceNum)   // Create int method SubOne, assign parameter int "userNum" 
+        //{
+        //    String danceType = "";
+        //    if (danceNum == 1)
+        //    {
+        //        danceType = "waltz";
+        //    }
+        //    else if (danceNum == 2)
+        //    {
+        //        danceType = "ramba";
+        //    }
+        //    else
+        //    {
+        //        danceType = "123";
+        //    }
+
+        //    String builtString = "I am going to preform a dance of " + danceType;
+        //    return builtString;
 
 
-    }
+
+        }
 }
