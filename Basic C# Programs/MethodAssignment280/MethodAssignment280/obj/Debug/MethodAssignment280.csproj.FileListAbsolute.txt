@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\bin\Debug\MethodAssignment280.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\bin\Debug\MethodAssignment280.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\bin\Debug\MethodAssignment280.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\obj\Debug\MethodAssignment280.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\obj\Debug\MethodAssignment280.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\obj\Debug\MethodAssignment280.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment280\MethodAssignment280\obj\Debug\MethodAssignment280.pdb
