@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\bin\Debug\MethodAssignment281.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\bin\Debug\MethodAssignment281.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\bin\Debug\MethodAssignment281.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\obj\Debug\MethodAssignment281.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\obj\Debug\MethodAssignment281.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\obj\Debug\MethodAssignment281.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodAssignment281\MethodAssignment281\obj\Debug\MethodAssignment281.pdb
