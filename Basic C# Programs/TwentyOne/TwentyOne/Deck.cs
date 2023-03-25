@@ -48,5 +48,34 @@ namespace TwentyOne
         }
              
         public List<Card> Cards { get; set; }
+
+        // shuffle function
+        public void Shuffle(int times = 1) // A Method we've made called Shuffle with a return type called "deck"
+                                                                                    //weve added the int times = 1 with 1 as a default placeholder that can be changed as seen below.
+                                                                                    //We then added "out int timesShuffled" 
+        {
+           
+            for (int i = 0; i < times; i++) // added for multi option parameter above
+            {
+                //all of this was it's own seperate fuction before the optional parameter "int "times" = 1" was added.
+                //We added that into this into the for loop and left the "return deck" outside which was under the deck.Cards = TempList; . 
+
+               
+                List<Card> TempList = new List<Card>();   // temp list to store shuffled items
+                Random random = new Random(); // random shuffle method 
+
+                while (Cards.Count > 0) // while loop 
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+
+            }
+            
+
+           
+        }
     }
 }

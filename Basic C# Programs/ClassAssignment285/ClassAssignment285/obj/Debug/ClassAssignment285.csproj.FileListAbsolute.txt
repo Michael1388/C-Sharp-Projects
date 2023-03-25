@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\obj\Debug\ClassAssignment285.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\obj\Debug\ClassAssignment285.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\bin\Debug\ClassAssignment285.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\bin\Debug\ClassAssignment285.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\bin\Debug\ClassAssignment285.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\obj\Debug\ClassAssignment285.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ClassAssignment285\ClassAssignment285\obj\Debug\ClassAssignment285.pdb

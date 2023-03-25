@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\bin\Debug\SwitchExample.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\bin\Debug\SwitchExample.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\bin\Debug\SwitchExample.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\obj\Debug\SwitchExample.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\obj\Debug\SwitchExample.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\obj\Debug\SwitchExample.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\SwitchExample\SwitchExample\obj\Debug\SwitchExample.pdb

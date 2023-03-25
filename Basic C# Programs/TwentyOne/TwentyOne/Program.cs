@@ -29,19 +29,20 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instated an object called Deck and called it variable "deck", it's now empty
+            deck.Shuffle(3);
 
-            // below was comment out for multi deck funciton // then we used that same rewrite for the new multi parameter method
-            //deck = Shuffle(deck); // Call the method - declared below as:  public static Deck Shuffle(Deck deck) // comment this line out to see unshuffled deck
-            int timesShuffled = 0; //added as below "timesShuffled"
-            deck = Shuffle(deck: deck, out timesShuffled, times: 3); //overload method and or optional multi parameter method, works for both.
-                                                  //To make it easier to read we added (deck: deck, times: 3) to what was just (deck, 3). either way works
+            //// below was comment out for multi deck funciton // then we used that same rewrite for the new multi parameter method
+            ////deck = Shuffle(deck); // Call the method - declared below as:  public static Deck Shuffle(Deck deck) // comment this line out to see unshuffled deck
+            //int timesShuffled = 0; //added as below "timesShuffled"
+            //deck = Shuffle(deck: deck, out timesShuffled, times: 3); //overload method and or optional multi parameter method, works for both.
+            //                                      //To make it easier to read we added (deck: deck, times: 3) to what was just (deck, 3). either way works
 
             foreach (Card card in deck.Cards) // to see list
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
             }
             Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);    // to see how many cards are in the list...should be 52
-            Console.WriteLine("Times shuffled: {0}", timesShuffled); // added as above and below after adding "timesShuffled" 
+            //Console.WriteLine("Times shuffled: {0}", timesShuffled); // added as above and below after adding "timesShuffled" 
             //NONE OF THIS WILL BE NEEDED BC WE ARE GOING TO CREATE A CONSTRUCTOR IN DECK TO CREATE ALL THE CARDS AT ONCE INSTEAD OF ONE AT A TIME!!
             //Console.WriteLine(deck.Cards[0].Face + " of " + deck.Cards[0].Suit);
 
@@ -59,42 +60,42 @@ namespace TwentyOne
 
             Console.ReadLine(); // keeps screen window open
         }
-        // shuffle function
-        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) // A Method we've made called Shuffle with a return type called "deck"
-                                                                                    //weve added the int times = 1 with 1 as a default placeholder that can be changed as seen below.
-                                                                                    //We then added "out int timesShuffled" 
-        {
-            timesShuffled = 0;  // added after as above
-            for (int i = 0; i < times; i++) // added for multi option parameter above
-            {
-                //all of this was it's own seperate fuction before the optional parameter "int "times" = 1" was added.
-                //We added that into this into the for loop and left the "return deck" outside which was under the deck.Cards = TempList; . 
+        //// shuffle function -----MOVED TO DECK
+        //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) // A Method we've made called Shuffle with a return type called "deck"
+        //                                                                            //weve added the int times = 1 with 1 as a default placeholder that can be changed as seen below.
+        //                                                                            //We then added "out int timesShuffled" 
+        //{
+        //    timesShuffled = 0;  // added after as above
+        //    for (int i = 0; i < times; i++) // added for multi option parameter above
+        //    {
+        //        //all of this was it's own seperate fuction before the optional parameter "int "times" = 1" was added.
+        //        //We added that into this into the for loop and left the "return deck" outside which was under the deck.Cards = TempList; . 
 
-                timesShuffled++;    // added after as above
-                List<Card> TempList = new List<Card>();   // temp list to store shuffled items
-                Random random = new Random(); // random shuffle method 
+        //        timesShuffled++;    // added after as above
+        //        List<Card> TempList = new List<Card>();   // temp list to store shuffled items
+        //        Random random = new Random(); // random shuffle method 
 
-                while (deck.Cards.Count > 0) // while loop 
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count);
-                    TempList.Add(deck.Cards[randomIndex]);
-                    deck.Cards.RemoveAt(randomIndex);
-                }
-                deck.Cards = TempList;
+        //        while (deck.Cards.Count > 0) // while loop 
+        //        {
+        //            int randomIndex = random.Next(0, deck.Cards.Count);
+        //            TempList.Add(deck.Cards[randomIndex]);
+        //            deck.Cards.RemoveAt(randomIndex);
+        //        }
+        //        deck.Cards = TempList;
 
-            }
-            return deck;
+        //    }
+        //    return deck;
 
-            // }
-            //multi shuffle function //overload method -- or we can go back up and add this to the to the previous method for a single function
-            //public static Deck Shuffle(Deck deck, int times)
-            //{
-            //    for(int i = 0; i < times; i++)
-            //    {
-            //        deck = Shuffle(deck);
-            //    }
-            //    return deck;
-            //}
-        }
+        //    // }
+        //    //multi shuffle function //overload method -- or we can go back up and add this to the to the previous method for a single function
+        //    //public static Deck Shuffle(Deck deck, int times)
+        //    //{
+        //    //    for(int i = 0; i < times; i++)
+        //    //    {
+        //    //        deck = Shuffle(deck);
+        //    //    }
+        //    //    return deck;
+        //    //}
+        //}
     }
 }
