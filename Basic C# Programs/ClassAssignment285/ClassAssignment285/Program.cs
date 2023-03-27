@@ -26,7 +26,7 @@ namespace ClassAssignment285
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number: ");  //write to console and ask user for a number
-            int userInput = Convert.ToInt32(Console.ReadLine());    //store user input in var called userInput and convert to integer 
+            int userInput = Convert.ToInt32(Console.ReadLine());    //store user input in var called userInput and convert to integer ()
 
             Division division = new Division(); //instantiate new Class of Class "Division" as variable "division" 
             division.Divide2(userInput); //call the Divide2 method passing in the user input

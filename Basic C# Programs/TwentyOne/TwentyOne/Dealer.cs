@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassAssignment285
+namespace TwentyOne
 {
-    public static class Static  //Declare a class to be static
+    class Dealer
     {
     }
 }
