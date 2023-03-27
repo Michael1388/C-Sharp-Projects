@@ -28,37 +28,62 @@ namespace TwentyOne
 
         static void Main(string[] args)
         {
-            Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instated an object called Deck and called it variable "deck", it's now empty
-            deck.Shuffle(3);
+            //TwentyOneGame game = new TwentyOneGame(); // inherited from Game Class
+            //game.Players = new List<string>() { "Michael", "Holly", "Josh" };
+            //game.ListPlayers();
 
-            //// below was comment out for multi deck funciton // then we used that same rewrite for the new multi parameter method
-            ////deck = Shuffle(deck); // Call the method - declared below as:  public static Deck Shuffle(Deck deck) // comment this line out to see unshuffled deck
-            //int timesShuffled = 0; //added as below "timesShuffled"
-            //deck = Shuffle(deck: deck, out timesShuffled, times: 3); //overload method and or optional multi parameter method, works for both.
-            //                                      //To make it easier to read we added (deck: deck, times: 3) to what was just (deck, 3). either way works
+            Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+            deck.Shuffle(3);
 
             foreach (Card card in deck.Cards) // to see list
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
             }
-            Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);    // to see how many cards are in the list...should be 52
-            //Console.WriteLine("Times shuffled: {0}", timesShuffled); // added as above and below after adding "timesShuffled" 
-            //NONE OF THIS WILL BE NEEDED BC WE ARE GOING TO CREATE A CONSTRUCTOR IN DECK TO CREATE ALL THE CARDS AT ONCE INSTEAD OF ONE AT A TIME!!
-            //Console.WriteLine(deck.Cards[0].Face + " of " + deck.Cards[0].Suit);
-
-            //deck.Cards = new List<Card>(); // property of Deck
-
-
-
-            //Card cardOne = new Card(); // Object of data type "Card"(Class) assigned to variable cardOne. We created a new Card in our program, a card object, we've instatiated an object an empty one..//commented out for Deck.cs
-            //cardOne.Face = "Queen"; // assigned property "Face"  // these two would be commented out so that the constructor on Card.cs would assign it's values here
-            //cardOne.Suit = "Spades"; // property "Suit"         // these two would be commented out so that the constructor on Card.cs would assign it's values here
-
-            //deck.Cards.Add(cardOne); // added 1 card to deck 
-
-            //Console.WriteLine(cardOne.Face + " of " + cardOne.Suit); // write it to the screen // commneted out for Deck
+            Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);
 
             Console.ReadLine(); // keeps screen window open
+
+
+
+
+
+
+
+            //////////////// ??????? All of that below has been willted down to those 6 lines of code starting with ***********DECK DECK down there
+            //// Card card = new Card() { Face = "King", Suit = "Spades" }; //Object initialization I hear this is called but looks like were not going to use it either
+
+            //***********DECK DECK
+            //Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+            //deck.Shuffle(3);
+
+            ////// below was comment out for multi deck funciton // then we used that same rewrite for the new multi parameter method
+            //////deck = Shuffle(deck); // Call the method - declared below as:  public static Deck Shuffle(Deck deck) // comment this line out to see unshuffled deck
+            ////int timesShuffled = 0; //added as below "timesShuffled"
+            ////deck = Shuffle(deck: deck, out timesShuffled, times: 3); //overload method and or optional multi parameter method, works for both.
+            ////                                      //To make it easier to read we added (deck: deck, times: 3) to what was just (deck, 3). either way works
+
+            //foreach (Card card in deck.Cards) // to see list
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
+            //}
+            //Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);    // to see how many cards are in the list...should be 52
+            ////Console.WriteLine("Times shuffled: {0}", timesShuffled); // added as above and below after adding "timesShuffled" 
+            ////NONE OF THIS WILL BE NEEDED BC WE ARE GOING TO CREATE A CONSTRUCTOR IN DECK TO CREATE ALL THE CARDS AT ONCE INSTEAD OF ONE AT A TIME!!
+            ////Console.WriteLine(deck.Cards[0].Face + " of " + deck.Cards[0].Suit);
+
+            ////deck.Cards = new List<Card>(); // property of Deck
+
+
+
+            ////Card cardOne = new Card(); // Object of data type "Card"(Class) assigned to variable cardOne. We created a new Card in our program, a card object, we've instatiated an object an empty one..//commented out for Deck.cs
+            ////cardOne.Face = "Queen"; // assigned property "Face"  // these two would be commented out so that the constructor on Card.cs would assign it's values here
+            ////cardOne.Suit = "Spades"; // property "Suit"         // these two would be commented out so that the constructor on Card.cs would assign it's values here
+
+            ////deck.Cards.Add(cardOne); // added 1 card to deck 
+
+            ////Console.WriteLine(cardOne.Face + " of " + cardOne.Suit); // write it to the screen // commneted out for Deck
+
+            //Console.ReadLine(); // keeps screen window open
         }
         //// shuffle function -----MOVED TO DECK
         //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) // A Method we've made called Shuffle with a return type called "deck"

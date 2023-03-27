@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\bin\Debug\MethodsObjectsAssignment292.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\bin\Debug\MethodsObjectsAssignment292.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\bin\Debug\MethodsObjectsAssignment292.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\obj\Debug\MethodsObjectsAssignment292.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\obj\Debug\MethodsObjectsAssignment292.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\obj\Debug\MethodsObjectsAssignment292.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\MethodsObjectsAssignment292\MethodsObjectsAssignment292\obj\Debug\MethodsObjectsAssignment292.pdb
