@@ -25,8 +25,7 @@ namespace MethodAssignment281
         {
 
             OptionalParameters name1 = new OptionalParameters(); // instantiated Class 
-            name1.OpParam(1, 2); // called method passing in two numbers, specifying parameters by name
-           
+            name1.OpParam(some: 1, other :2); // called method passing in two numbers, specifying the parameters by name...this time :)
 
 
             Console.ReadLine(); // keep console open to view program until closed by user or return/enter key
