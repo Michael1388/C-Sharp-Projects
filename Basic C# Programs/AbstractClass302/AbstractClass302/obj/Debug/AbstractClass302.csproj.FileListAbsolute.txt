@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\bin\Debug\AbstractClass302.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\bin\Debug\AbstractClass302.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\bin\Debug\AbstractClass302.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\obj\Debug\AbstractClass302.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\obj\Debug\AbstractClass302.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\obj\Debug\AbstractClass302.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\AbstractClass302\AbstractClass302\obj\Debug\AbstractClass302.pdb
