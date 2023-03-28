@@ -42,6 +42,19 @@ namespace SwitchExample
                     }
             }
             Console.ReadLine();
+
+            if (userNumber == 0)
+            { 
+            
+            }
+            else if (userNumber == 1)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
