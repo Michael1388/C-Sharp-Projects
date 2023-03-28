@@ -9,7 +9,7 @@ namespace TwentyOne
     public abstract class Game // added abstract as an exapmle of what you never want to be instantiated bc an abstract cant be 
     {
         //Inheritance - ability of a class to inherit methods and properties from another class - DRY
-        public List<string> Players { get; set; } //(prop tab tab)
+        public List<Player> Players { get; set; } //(prop tab tab)
         public string Name { get; set; }
         public string Dealer { get; set; }
 
@@ -17,9 +17,9 @@ namespace TwentyOne
 
         public virtual void ListPlayers() // virtual method , gets inherited by an inheriting class but has the aability to override it...can be overriedden.
         {
-            foreach (string player in Players)
+            foreach (Player player in Players)
             {
-                Console.WriteLine(player);
+                Console.WriteLine(player.Name);
             }
         }
     }

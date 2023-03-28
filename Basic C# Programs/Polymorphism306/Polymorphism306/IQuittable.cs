@@ -19,6 +19,7 @@ namespace Polymorphism306
 
     interface IQuittable // interface called IQuittable
     {
-        void Quit(Employee employee); //void method called Quit
+        //void Quit(Employee employee); //void method called Quit
+        void Quit(string name);
     }
 }

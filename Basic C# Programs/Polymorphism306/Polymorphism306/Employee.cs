@@ -18,17 +18,20 @@ namespace Polymorphism306
 
     public class Employee : Person, IQuittable //new Class Employee inherts from Person Class and has Interface IQuittable 
     {
-        public override void SayName()
-        {
-            base.SayName();  // calling the base class "SayName" method
-        }
+        //public override void SayName()
+        //{
+        //    base.SayName();  // calling the base class "SayName" method
+        //}
 
-        public void Quit(Employee employee) // Polymorphism of Employee 
+        //public void Quit(Employee employee) // Polymorphism of Employee 
+        public void Quit(string name)
         {
-           
-            base.FirstName = new List<string>() { "John" };   // initialize Employee object
-            base.LastName = new List<string>() { "Smith" };  //initialize Employee object
-            base.SayName(); // calling the base class "SayName" method
+
+            Console.WriteLine(name + " Quits.");
+            //base.FirstName = new List<string>() { "John" };   // initialize Employee object
+            //base.LastName = new List<string>() { "Smith" };  //initialize Employee object
+            //base.SayName(); // calling the base class "SayName" method
+
 
         }
 

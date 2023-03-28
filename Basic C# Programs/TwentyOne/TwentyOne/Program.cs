@@ -28,22 +28,27 @@ namespace TwentyOne
 
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame(); // inherited from Game Class
-            game.Players = new List<string>() { "Michael", "Holly", "Josh" };
-            game.ListPlayers();
+            //TwentyOneGame game = new TwentyOneGame(); // inherited from Game Class
+            //game.Players = new List<string>() { "Michael", "Holly", "Josh" };
+            //game.ListPlayers();
 
-            // Game game = new TwentyOneGame(); // Polymorphism 
+            Game game = new TwentyOneGame(); // Polymorphism 
 
+            game.Players = new List<Player>(); // workaround for error experienced bc Game/List<> has not instantiated that list
 
+            Player player = new Player();
+            player.Name = "Michael";
 
-            //Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
-            //deck.Shuffle(3);
+            game = game + player; // in a way this is our method that returns a game
 
-            //foreach (Card card in deck.Cards) // to see list
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
-            //}
-            //Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);
+            Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+            deck.Shuffle(3);
+
+            foreach (Card card in deck.Cards) // to see list
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
+            }
+            Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);
 
             Console.ReadLine(); // keeps screen window open
 

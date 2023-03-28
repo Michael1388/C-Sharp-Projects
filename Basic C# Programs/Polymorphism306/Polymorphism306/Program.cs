@@ -22,11 +22,18 @@ namespace Polymorphism306
         static void Main(string[] args)
         {
             {
-                Employee employee = new Employee(); // instantiate and initialize Employee object
-                employee.FirstName = new List<string>() { "Sample" }; // initialize Employee object
-                employee.LastName = new List<string>() { "Student" }; //initialize Employee object
-                employee.SayName();     //call superclass Method SayName
-                employee.Quit(employee); //call Quit method from interface IQuittable
+                IQuittable employee = new Employee(); // instantiate and initialize Employee object
+                //employee.FirstName = new List<string>() { "Sample" }; // initialize Employee object
+                //employee.LastName = new List<string>() { "Student" }; //initialize Employee object
+                //employee.SayName();     //call superclass Method SayName
+                employee.Quit("Sample Student"); //call Quit method from interface IQuittable
+
+
+                //Employee employee = new Employee(); // instantiate and initialize Employee object
+                //employee.FirstName = new List<string>() { "Sample" }; // initialize Employee object
+                //employee.LastName = new List<string>() { "Student" }; //initialize Employee object
+               // employee.SayName();     //call superclass Method SayName
+                //employee.Quit(); //call Quit method from interface IQuittable
 
 
                 Console.ReadLine(); // keep console window open
