@@ -50,21 +50,75 @@ namespace TwentyOne
 
 
 
-            //Reference Type Example:
+           // //Reference Type Example:
 
 
-            Card card1 = new Card();
-            card1.Face = Face.Eight;
-            Console.WriteLine(card1.Face); // returns King
-            Card card2 = card1;
-            Console.WriteLine(card2.Face); // returns King
-            card2.Face = Face.King;
+           // Card card1 = new Card();
+           // card1.Face = Face.Eight;
+           // Console.WriteLine(card1.Face); // returns King
+           // Card card2 = card1;
+           // Console.WriteLine(card2.Face); // returns King
+           // card2.Face = Face.King;
 
-            Console.WriteLine(card1.Face); // returns King
-            Console.WriteLine(card2.Face); // returns King
+           // Console.WriteLine(card1.Face); // returns King
+           // Console.WriteLine(card2.Face); // returns King
+
+           // int x = 1;
+           // int y = x;
+           // y = 2; // x is 1, y is 2
+
+           // string helloWorld = "hello";
+           // helloWorld = "not hello";
+
+           //// pass by VALUE TYPE will copy another value
+           //// pass by reference will reference another existing object
+           ///
 
 
-            //Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+
+
+            Deck deck = new Deck();
+
+            //int count = deck.Cards.Count(x => x.Face == Face.Ace); // iterating through using LAMBDA FUNCTIONS =>
+            //Console.WriteLine(count);
+
+            //Another Example Lambda function
+
+            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+            //foreach (Card card in newList)
+            //{
+            //    Console.WriteLine(card.Face);
+
+            //}
+
+
+            //Another Example Lambda function  -- FAst way to sum numbers in a list
+
+            //List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+            //int sum = numberList.Sum(); // sum the numbers = 906
+
+            //Console.WriteLine(sum);
+
+
+            //Another Example Lambda function  -- FAst way to sum numbers in a list + Add an iterationand find sum plus max plus min  plus plus plus
+            //it makes a way to do things that would otherwise require loops and a lot of code reduced down to one line in many instances...
+
+            List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+            //int sum = numberList.Sum(x => x + 5); // sum the numbers +  add five to each of them or + 30 = 936
+            //int sum = numberList.Max();  // or get the Max item in the list ... 535
+            //int sum = numberList.Min();  // or get the Min item in the list ... 1
+            int sum = numberList.Where(x => x > 20).Sum();  // Where creates a new list , in teis case we are calling items x that are greater than 20 and then we will "sum" that list.
+                                                            // In this case it will be the items that are greater than 20 being added together in the sum of ... 900 or (535, 342, 23)
+
+
+            Console.WriteLine(sum); // sum the numbers
+
+
+
+            Console.WriteLine();
+
+            // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
             //deck.Shuffle(3);
 
             //foreach (Card card in deck.Cards) // to see list
