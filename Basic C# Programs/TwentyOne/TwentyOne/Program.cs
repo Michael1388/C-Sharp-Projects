@@ -49,14 +49,29 @@ namespace TwentyOne
             //Console.WriteLine(underlyingvalue);
 
 
-            Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
-            deck.Shuffle(3);
 
-            foreach (Card card in deck.Cards) // to see list
-            {
-                Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
-            }
-            Console.WriteLine("Cards in deck: " + deck.Cards.Count);
+            //Reference Type Example:
+
+
+            Card card1 = new Card();
+            card1.Face = Face.Eight;
+            Console.WriteLine(card1.Face); // returns King
+            Card card2 = card1;
+            Console.WriteLine(card2.Face); // returns King
+            card2.Face = Face.King;
+
+            Console.WriteLine(card1.Face); // returns King
+            Console.WriteLine(card2.Face); // returns King
+
+
+            //Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+            //deck.Shuffle(3);
+
+            //foreach (Card card in deck.Cards) // to see list
+            //{
+            //    Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
+            //}
+            //Console.WriteLine("Cards in deck: " + deck.Cards.Count);
 
             Console.ReadLine(); // keeps screen window open
 

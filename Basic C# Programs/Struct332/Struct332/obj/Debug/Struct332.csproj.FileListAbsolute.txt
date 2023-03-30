@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\bin\Debug\Struct332.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\bin\Debug\Struct332.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\bin\Debug\Struct332.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\obj\Debug\Struct332.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\obj\Debug\Struct332.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\obj\Debug\Struct332.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Struct332\Struct332\obj\Debug\Struct332.pdb

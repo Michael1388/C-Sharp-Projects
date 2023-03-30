@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne // same namespace as the main Program 21
 {
-    public class Card // Class Card / Is public; = accessible for use by all parts of this program
+    public class Card // class Card changed to struct Card/ Is public; = accessible for use by all parts of this program
                         //A Class is just a "Model" , a design for an object
     {   
         // now we are going to add "state" or properties
