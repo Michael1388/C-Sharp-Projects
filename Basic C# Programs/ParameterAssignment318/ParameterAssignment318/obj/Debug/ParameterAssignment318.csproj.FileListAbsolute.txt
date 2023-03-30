@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\bin\Debug\ParameterAssignment318.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\bin\Debug\ParameterAssignment318.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\bin\Debug\ParameterAssignment318.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\obj\Debug\ParameterAssignment318.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\obj\Debug\ParameterAssignment318.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\obj\Debug\ParameterAssignment318.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParameterAssignment318\ParameterAssignment318\obj\Debug\ParameterAssignment318.pdb

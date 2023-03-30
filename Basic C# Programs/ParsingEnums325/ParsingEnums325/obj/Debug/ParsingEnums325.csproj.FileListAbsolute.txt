@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\bin\Debug\ParsingEnums325.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\bin\Debug\ParsingEnums325.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\bin\Debug\ParsingEnums325.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\obj\Debug\ParsingEnums325.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\obj\Debug\ParsingEnums325.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\obj\Debug\ParsingEnums325.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\ParsingEnums325\ParsingEnums325\obj\Debug\ParsingEnums325.pdb

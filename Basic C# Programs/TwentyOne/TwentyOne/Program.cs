@@ -32,14 +32,22 @@ namespace TwentyOne
             //game.Players = new List<string>() { "Michael", "Holly", "Josh" };
             //game.ListPlayers();
 
-            Game game = new TwentyOneGame(); // Polymorphism 
+            //Game game = new TwentyOneGame(); // Polymorphism 
 
-            game.Players = new List<Player>(); // workaround for error experienced bc Game/List<> has not instantiated that list
+            //game.Players = new List<Player>(); // workaround for error experienced bc Game/List<> has not instantiated that list
 
-            Player player = new Player();
-            player.Name = "Michael";
+            //Player player = new Player();
+            //player.Name = "Michael";
 
-            game = game + player; // in a way this is our method that returns a game
+            //game +=  player; // in a way this is our method that returns a game //overload the operator +=
+            //game -= player; // added removed player to list...I guess we instantiated and added player now we are removing it
+
+            //Card card = new Card();
+            //card.Suit = Suit.Clubs;
+
+            //int underlyingvalue = (int)Suit.Diamonds; // can convert an ENUM string of say a Clubs integer to a string... bc ENUM are kindof weird... they're underlying data type is integer 
+            //Console.WriteLine(underlyingvalue);
+
 
             Deck deck = new Deck();  // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
             deck.Shuffle(3);
@@ -48,12 +56,25 @@ namespace TwentyOne
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
             }
-            Console.WriteLine("Cards counted in the deck: " + deck.Cards.Count);
+            Console.WriteLine("Cards in deck: " + deck.Cards.Count);
 
             Console.ReadLine(); // keeps screen window open
 
 
 
+            //DaysOfTheWeek day = DaysOfTheWeek.Monday; // ENUM example 
+
+            //    public enum DaysOfTheWeek  /// example of an ENUM 
+            //{
+            //    Monday,
+            //    Tuesday,
+            //    Wednesday,
+            //    Thursday,
+            //    Friday,
+            //    Saturday,
+            //    Sunday
+
+            //}
 
 
 

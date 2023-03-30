@@ -13,15 +13,15 @@ namespace TwentyOne
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
 
-        public static Game operator +(Game game, Player player)
+        public static Game operator +(Game game, Player player) // overloading operator+
         {
-            game.Players.Add(player);
+            game.Players.Add(player); //add
             return game;
 
         }
-        public static Game operator- (Game game, Player player)
+        public static Game operator- (Game game, Player player) // overloading operator-
         {
-            game.Players.Remove(player);
+            game.Players.Remove(player); //remove
             return game;
         }
     }

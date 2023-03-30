@@ -8,33 +8,53 @@ namespace TwentyOne
 {
     public class Deck
     {   
+        //Deck deck = new Deck(); comes from this CONSTRUCTOR
         public Deck() // constructor ALWAYS AT THE TOP // constructor - a method that is called as soon as an object is created  
         {
             Cards = new List<Card>();  //Data type empty List called Cards
-
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; // List to loop through the Suits for the deck
-            List<string> Faces = new List<string>()
-                { 
-                    "Two", "Three", "Four", "Five", "Six", "Seven",
-                    "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
             
-                };                                                                              // List to loop through the Faces for the deck
-
-            // nested foreach loop
-            foreach (string face in Faces) // foreach loop 1 // loop through each item four times (suit)
+            for (int i = 0; i < 13; i++) //iterate through i 13 times (faces)
             {
-                foreach (string suit in Suits)  // foreach loop 2
+                for (int j = 0; j < 4; j++) //iterate through j 4 times (suits)
                 {
-                    //result we want from these loops we've iterated through
+                    Card card = new Card(); //instantiate new card 
+                    card.Face = (Face)i;    //put the data type you are casting to, inside the parenteses, as so(Face), so we are casting to Face, i;  which will be done 13 times
+                    card.Suit = (Suit)j;    // cast to Suit, j; which will be done 4 times
+                    Cards.Add(card);    //Add card to Cards List 13 x 4 = 52 cards
 
-                    Card card = new Card();  // create a new card for each iteration called variable "card"
-                    card.Suit = suit; // assign suit to each card iterated through
-                    card.Face = face;   // assign face to each card iterated through
-                    Cards.Add(card); // Adds new cards to Deck
-                    // we've used the same variable "card" over and over 4 times here and can do that
-                    // because it will not exist anywhere but inside of this loop.
                 }
             }
+            
+            
+            
+            
+            
+            // re coded this after changin to ENUM in CARD CLASS
+            //List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; // List to loop through the Suits for the deck
+            //List<string> Faces = new List<string>()
+            //    { 
+            //        "Two", "Three", "Four", "Five", "Six", "Seven",
+            //        "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
+            
+            //    };                                                                              // List to loop through the Faces for the deck
+
+            //// nested foreach loop
+            //foreach (string face in Faces) // foreach loop 1 // loop through each item four times (suit)
+            //{
+            //    foreach (string suit in Suits)  // foreach loop 2
+            //    {
+            //        // re coded this after cahngin to ENUM in CARD CLASS
+            //        ////result we want from these loops we've iterated through
+
+            //        //Card card = new Card();  // create a new card for each iteration called variable "card"
+            //        //card.Suit = suit; // assign suit to each card iterated through
+            //        //card.Face = face;   // assign face to each card iterated through
+            //        //Cards.Add(card); // Adds new cards to Deck
+                    
+            //        //// we've used the same variable "card" over and over 4 times here and can do that
+            //        //// because it will not exist anywhere but inside of this loop.
+            //    }
+            //}
 
 
             //This, our first example works if you want to add all 52 cards one at a time typed out INDIVIDUALLY- BUT there is an easier way!!
