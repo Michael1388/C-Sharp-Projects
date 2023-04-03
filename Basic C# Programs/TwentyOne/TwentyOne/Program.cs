@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -28,106 +29,168 @@ namespace TwentyOne
 
         static void Main(string[] args)
         {
-            //TwentyOneGame game = new TwentyOneGame(); // inherited from Game Class
-            //game.Players = new List<string>() { "Michael", "Holly", "Josh" };
-            //game.ListPlayers();
 
-            //Game game = new TwentyOneGame(); // Polymorphism 
+            //string text = "Here is some text.";
+            //File.WriteAllText(@"C:\Users\Michael\Logs\log.txt", text);
 
-            //game.Players = new List<Player>(); // workaround for error experienced bc Game/List<> has not instantiated that list
-
-            //Player player = new Player();
-            //player.Name = "Michael";
-
-            //game +=  player; // in a way this is our method that returns a game //overload the operator +=
-            //game -= player; // added removed player to list...I guess we instantiated and added player now we are removing it
-
-            //Card card = new Card();
-            //card.Suit = Suit.Clubs;
-
-            //int underlyingvalue = (int)Suit.Diamonds; // can convert an ENUM string of say a Clubs integer to a string... bc ENUM are kindof weird... they're underlying data type is integer 
-            //Console.WriteLine(underlyingvalue);
-
-
-
-           // //Reference Type Example:
-
-
-           // Card card1 = new Card();
-           // card1.Face = Face.Eight;
-           // Console.WriteLine(card1.Face); // returns King
-           // Card card2 = card1;
-           // Console.WriteLine(card2.Face); // returns King
-           // card2.Face = Face.King;
-
-           // Console.WriteLine(card1.Face); // returns King
-           // Console.WriteLine(card2.Face); // returns King
-
-           // int x = 1;
-           // int y = x;
-           // y = 2; // x is 1, y is 2
-
-           // string helloWorld = "hello";
-           // helloWorld = "not hello";
-
-           //// pass by VALUE TYPE will copy another value
-           //// pass by reference will reference another existing object
-           ///
+            //string text = File.ReadAllText(@"C:\Users\Michael\Logs\log.txt"); // hover over "text" in string "text" and it will read the text in the file called
 
 
 
 
-            Deck deck = new Deck();
 
-            //int count = deck.Cards.Count(x => x.Face == Face.Ace); // iterating through using LAMBDA FUNCTIONS =>
-            //Console.WriteLine(count);
+            Console.WriteLine("Welcome to my BlackJack table. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            
+            if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
+            {
+                Player player = new Player(playerName, bank);
 
-            //Another Example Lambda function
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
 
-            //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();  ////// breaks if hit enter and not enter a bet instead
+                }
+                game -= player;
+                Console.WriteLine("Thank you for playing!");
 
-            //foreach (Card card in newList)
-            //{
-            //    Console.WriteLine(card.Face);
+            }
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
 
-            //}
-
-
-            //Another Example Lambda function  -- FAst way to sum numbers in a list
-
-            //List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
-            //int sum = numberList.Sum(); // sum the numbers = 906
-
-            //Console.WriteLine(sum);
-
-
-            //Another Example Lambda function  -- FAst way to sum numbers in a list + Add an iterationand find sum plus max plus min  plus plus plus
-            //it makes a way to do things that would otherwise require loops and a lot of code reduced down to one line in many instances...
-
-            List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
-            //int sum = numberList.Sum(x => x + 5); // sum the numbers +  add five to each of them or + 30 = 936
-            //int sum = numberList.Max();  // or get the Max item in the list ... 535
-            //int sum = numberList.Min();  // or get the Min item in the list ... 1
-            int sum = numberList.Where(x => x > 20).Sum();  // Where creates a new list , in teis case we are calling items x that are greater than 20 and then we will "sum" that list.
-                                                            // In this case it will be the items that are greater than 20 being added together in the sum of ... 900 or (535, 342, 23)
-
-
-            Console.WriteLine(sum); // sum the numbers
+            Console.ReadLine();
+        }
+    }
+}
 
 
 
-            Console.WriteLine();
 
-            // created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
-            //deck.Shuffle(3);
 
-            //foreach (Card card in deck.Cards) // to see list
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
-            //}
-            //Console.WriteLine("Cards in deck: " + deck.Cards.Count);
 
-            Console.ReadLine(); // keeps screen window open
+
+////// --------------THESE were all the notes prior to creating the actual game-------------------------------------------------------
+
+
+/////{
+
+//TwentyOneGame game = new TwentyOneGame(); // inherited from Game Class
+//game.Players = new List<string>() { "Michael", "Holly", "Josh" };
+//game.ListPlayers();
+
+//Game game = new TwentyOneGame(); // Polymorphism 
+
+//game.Players = new List<Player>(); // workaround for error experienced bc Game/List<> has not instantiated that list
+
+//Player player = new Player();
+//player.Name = "Michael";
+
+//game +=  player; // in a way this is our method that returns a game //overload the operator +=
+//game -= player; // added removed player to list...I guess we instantiated and added player now we are removing it
+
+//Card card = new Card();
+//card.Suit = Suit.Clubs;
+
+//int underlyingvalue = (int)Suit.Diamonds; // can convert an ENUM string of say a Clubs integer to a string... bc ENUM are kindof weird... they're underlying data type is integer 
+//Console.WriteLine(underlyingvalue);
+
+
+
+// //Reference Type Example:
+
+
+// Card card1 = new Card();
+// card1.Face = Face.Eight;
+// Console.WriteLine(card1.Face); // returns King
+// Card card2 = card1;
+// Console.WriteLine(card2.Face); // returns King
+// card2.Face = Face.King;
+
+// Console.WriteLine(card1.Face); // returns King
+// Console.WriteLine(card2.Face); // returns King
+
+// int x = 1;
+// int y = x;
+// y = 2; // x is 1, y is 2
+
+// string helloWorld = "hello";
+// helloWorld = "not hello";
+
+//// pass by VALUE TYPE will copy another value
+//// pass by reference will reference another existing object
+///
+
+
+
+
+//Deck deck = new Deck();
+
+
+//Example Lambda functions
+
+
+//int count = deck.Cards.Count(x => x.Face == Face.Ace); // iterating through using LAMBDA FUNCTIONS =>
+//Console.WriteLine(count);
+
+//Another Example Lambda function
+
+//List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList();
+
+//foreach (Card card in newList)
+//{
+//    Console.WriteLine(card.Face);
+
+//}
+
+
+//Another Example Lambda function  -- FAst way to sum numbers in a list
+
+//List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+//int sum = numberList.Sum(); // sum the numbers = 906
+
+//Console.WriteLine(sum);
+
+
+//Another Example Lambda function  -- FAst way to sum numbers in a list + Add an iterationand find sum plus max plus min  plus plus plus
+//it makes a way to do things that would otherwise require loops and a lot of code reduced down to one line in many instances...
+//and Lambda expressions are FASTER than for loops 
+
+// List<int> numberList = new List<int>() { 1, 2, 3, 535, 342, 23 };
+//int sum = numberList.Sum(x => x + 5); // sum the numbers +  add five to each of them or + 30 = 936
+//int sum = numberList.Max();  // or get the Max item in the list ... 535
+//int sum = numberList.Min();  // or get the Min item in the list ... 1
+//int sum = numberList.Where(x => x > 20).Sum();  // Where creates a new list , in teis case we are calling items x that are greater than 20 and then we will "sum" that list.
+// In this case it will be the items that are greater than 20 being added together in the sum of ... 900 or (535, 342, 23)
+
+// OK WITH THT SAID, A FEW WORDS OF CAUTION REGARDING LAMBDA's
+//they are hard to debug......can't step through them in debugging 
+// so if  you have an error you are on your own. Also don't make them too long, they become difficult to read the logic in them and debug for others as well as yourself.
+
+
+//Console.WriteLine(sum); // sum the numbers
+
+
+
+
+
+// created a new Object of data type called Deck. Weve instantiated an object called Deck and called it variable "deck", it's now empty
+//deck.Shuffle(3);
+
+//foreach (Card card in deck.Cards) // to see list
+//{
+//    Console.WriteLine(card.Face + " of " + card.Suit);  // to see list
+//}
+//Console.WriteLine("Cards in deck: " + deck.Cards.Count);
+
+// Console.ReadLine(); // keeps screen window open
 
 
 
@@ -183,7 +246,7 @@ namespace TwentyOne
             ////Console.WriteLine(cardOne.Face + " of " + cardOne.Suit); // write it to the screen // commneted out for Deck
 
             //Console.ReadLine(); // keeps screen window open
-        }
+        //}
         //// shuffle function -----MOVED TO DECK
         //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) // A Method we've made called Shuffle with a return type called "deck"
         //                                                                            //weve added the int times = 1 with 1 as a default placeholder that can be changed as seen below.
@@ -221,5 +284,4 @@ namespace TwentyOne
         //    //    return deck;
         //    //}
         //}
-    }
-}
+    //}

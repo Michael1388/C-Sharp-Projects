@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne // same namespace as the main Program 21
 {
-    public class Card // class Card changed to struct Card/ Is public; = accessible for use by all parts of this program
+    public struct Card // class Card changed to struct Card/ Is public; = accessible for use by all parts of this program
                         //A Class is just a "Model" , a design for an object
     {   
         // now we are going to add "state" or properties
@@ -23,7 +23,11 @@ namespace TwentyOne // same namespace as the main Program 21
 
         public Suit Suit { get; set; } // get, set; the only two things you can do with an Object property. -- changed string to correspond to Enum Suit
         public Face Face { get; set; }
-        
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
     //Enum used here to eliminate options that can be chosen from and also to eliminate possible spelling and typo errors a user could input that would break code.
     public enum Suit

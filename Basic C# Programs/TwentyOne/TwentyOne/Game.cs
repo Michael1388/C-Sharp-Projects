@@ -9,9 +9,13 @@ namespace TwentyOne
     public abstract class Game // added abstract as an exapmle of what you never want to be instantiated bc an abstract cant be 
     {
         //Inheritance - ability of a class to inherit methods and properties from another class - DRY
-        public List<Player> Players { get; set; } //(prop tab tab)
+        private List<Player> _players = new List<Player>();
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
+        public List<Player> Players { get { return _players;  } set { _players = value; } } //(prop tab tab)
+        
+        
         public string Name { get; set; }
-        public string Dealer { get; set; }
+        public Dictionary<Player, int> Bets { get { return _bets; }  set { _bets = value; } }
 
         public abstract void Play(); // abstract method Must Be Used in all that inherit from it / Game 
 
