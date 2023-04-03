@@ -10,11 +10,11 @@ namespace Input366
     class Program
     {
         //Asks the user for a number. --Done
-        //Logs that number to a text file.
-        //Prints the text file back to the user.
+        //Logs that number to a text file. --Done
+        //Prints the text file back to the user. --Done
         //Add comments to each line or block of your code to explain what it does exactly,
-        //so that another developer could read and understand your code.
-       
+        //so that another developer could read and understand your code. --Done
+
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number: "); //asks user for a number

@@ -29,11 +29,21 @@ namespace TwentyOne
 
         static void Main(string[] args)
         {
+            //Logging add: "using System.IO;" to top of page with other "using"s
 
             //string text = "Here is some text.";
             //File.WriteAllText(@"C:\Users\Michael\Logs\log.txt", text);
 
             //string text = File.ReadAllText(@"C:\Users\Michael\Logs\log.txt"); // hover over "text" in string "text" and it will read the text in the file called
+
+            //DateTime and TimeSpan usage:
+
+            //DateTime dateTime = new DateTime(1995, 5, 23, 8, 32, 45);
+
+            DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
+            DateTime yearOfGraduation = new DateTime(2013, 5, 23, 8, 32, 45);
+
+            TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
 
 
 

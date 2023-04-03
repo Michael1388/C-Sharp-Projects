@@ -19,11 +19,13 @@ namespace TwentyOne
         {
             //is now to add LOGGING
             Hand.Add(Deck.Cards.First()); //Adds first item (card) in the Deck and moves it to Hand
-            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");  // this is the beginning of the logging code
             Console.WriteLine(card); // displays what was dealt to Hand
-            using (StreamWriter file = new StreamWriter(@"C:\Users\Michael\Logs\log.txt", true))
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Michael\Logs\log.txt", true))  // this is the using System.IO method the system allows to log with. It will by using this Streamwriter code clean up after it
+                                                                                                  // logs and release the memory used to log this, "true" parameter appends existing instead of creating a new file everytime.
             {
-                file.WriteLine(card);
+                file.WriteLine(DateTime.Now); //logs time dealt
+                file.WriteLine(card); // logs the card(s) dealt
             }
                 Deck.Cards.RemoveAt(0); // removes card from deck
 
