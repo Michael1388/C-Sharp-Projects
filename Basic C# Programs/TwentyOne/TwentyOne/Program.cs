@@ -65,9 +65,18 @@ namespace TwentyOne
 
             Console.WriteLine("Welcome to my {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
-            
-            Console.WriteLine("And how much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+            //error handling 
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank); // int is just like saying Convert.ToInt32. Try Parse has options for in and output
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+            }
+            //End error handle
+            //Console.WriteLine("And how much money did you bring today?"); // REPLACED ABOVE with Error Handling
+            //int bank = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
             string answer = Console.ReadLine().ToLower();
@@ -88,8 +97,23 @@ namespace TwentyOne
                 player.isActivelyPlaying = true;
 
                 while (player.isActivelyPlaying && player.Balance > 0)
-                {
-                    game.Play();  ////// breaks if hit enter and not enter a bet instead
+                {   
+                    try
+                    {
+                        game.Play();  ////// breaks if hit enter and not enter a bet instead
+                    }
+                    catch(FraudException)
+                    {
+                        Console.WriteLine("Security! Kick this person out.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch(Exception)
+                    {
+                        Console.WriteLine("An error occured. Please contact your System Administrator");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");

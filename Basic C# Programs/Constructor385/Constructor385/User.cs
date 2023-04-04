@@ -8,7 +8,7 @@ namespace Constructor385
 {
     public class User
     {
-        public User (string name) : this(name, 21) // user chaining Constructor
+        public User (string name) : this(name, 21) // 3. User Chaining Constructor
         { 
         }
 

@@ -1,0 +1,7 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\bin\Debug\TryCatch390.exe.config
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\bin\Debug\TryCatch390.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\bin\Debug\TryCatch390.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\obj\Debug\TryCatch390.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\obj\Debug\TryCatch390.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\obj\Debug\TryCatch390.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\TryCatch390\TryCatch390\obj\Debug\TryCatch390.pdb
