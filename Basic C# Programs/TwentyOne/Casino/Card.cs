@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne // same namespace as the main Program 21
+namespace Casino // same namespace as the main Program 21
 {
     public struct Card // class Card changed to struct Card/ Is public; = accessible for use by all parts of this program
                         //A Class is just a "Model" , a design for an object

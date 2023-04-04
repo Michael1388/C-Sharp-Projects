@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -29,27 +31,39 @@ namespace TwentyOne
 
         static void Main(string[] args)
         {
-            //Logging add: "using System.IO;" to top of page with other "using"s
+            //Logging EXAMPLES: add "using System.IO;" to top of page with other "using"s
 
             //string text = "Here is some text.";
             //File.WriteAllText(@"C:\Users\Michael\Logs\log.txt", text);
 
             //string text = File.ReadAllText(@"C:\Users\Michael\Logs\log.txt"); // hover over "text" in string "text" and it will read the text in the file called
 
-            //DateTime and TimeSpan usage:
+            //DateTime and TimeSpan usage EXAMPLES:
 
             //DateTime dateTime = new DateTime(1995, 5, 23, 8, 32, 45);
 
-            DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
-            DateTime yearOfGraduation = new DateTime(2013, 5, 23, 8, 32, 45);
+            //DateTime yearOfBirth = new DateTime(1995, 5, 23, 8, 32, 45);
+            //DateTime yearOfGraduation = new DateTime(2013, 5, 23, 8, 32, 45);
 
-            TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
-
-
+            //TimeSpan ageAtGraduation = yearOfGraduation - yearOfBirth;
 
 
 
-            Console.WriteLine("Welcome to my BlackJack table. Let's start by telling me your name.");
+
+            ////Dictionary<string, string> newDictionary = new Dictionary<string, string>(); // OR INSTEAD DO THIS
+            // var newDictionary = new Dictionary<string, string>();
+
+
+            // //Player newPlayer = new Player("Michael"); OR INSTEAD--
+            // var newPlayer = new Player("Michael"); //var - instead of Player - don't have to name the data type after 4.0 C#
+
+            // DON'T FORGET TO REBUILD CASINO SOLUTION OR OTHER "REFERENCES" AFTER EDITS OTHERWISE PROGRAM MAIN WILL NOT WORK 
+
+            const string casinoName = "BlackJack table"; //Constant keyword Example
+
+            //Guid identifier = Guid.NewGuid(); //GUID Global Uniquie Identifier
+
+            Console.WriteLine("Welcome to my {0}. Let's start by telling me your name.", casinoName);
             string playerName = Console.ReadLine();
             
             Console.WriteLine("And how much money did you bring today?");
@@ -61,6 +75,13 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
+
+                player.Id = Guid.NewGuid(); //GUID Global Uniquie Identifier
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Michael\Logs\log.txt", true))  // this is the using System.IO method the system allows to log with. It will by using this Streamwriter code clean up after it
+                                                                                                      // logs and release the memory used to log this, "true" parameter appends existing instead of creating a new file everytime.
+                {
+                    file.WriteLine(player.Id); //logs player ID //GUID Global Uniquie Identifier  always UNIQUE! `
+                }
 
                 Game game = new TwentyOneGame();
                 game += player;

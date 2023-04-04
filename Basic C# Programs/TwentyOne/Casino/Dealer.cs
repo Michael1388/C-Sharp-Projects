@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace TwentyOne
+namespace Casino
 {
     public class Dealer // public
     {
@@ -25,6 +25,7 @@ namespace TwentyOne
                                                                                                   // logs and release the memory used to log this, "true" parameter appends existing instead of creating a new file everytime.
             {
                 file.WriteLine(DateTime.Now); //logs time dealt
+                                                                //GUID Global Uniquie Identifier
                 file.WriteLine(card); // logs the card(s) dealt
             }
                 Deck.Cards.RemoveAt(0); // removes card from deck

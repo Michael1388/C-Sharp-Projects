@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     public abstract class Game // added abstract as an exapmle of what you never want to be instantiated bc an abstract cant be 
     {

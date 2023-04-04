@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOne
+namespace Casino
 {
     // Need to inherit from multiple classes? Can't do it in C#. Only one allowed per class.
     // But you can have multiple "Interfaces" so lets see how that works.
