@@ -146,6 +146,7 @@ namespace TwentyOne
             Console.ReadLine();
         }
 
+        //ADO.NET Examples - calling Databases in C#
         private static void UpdateDbWithException(Exception ex) // connecting to and instructing our DB below
         {
             string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=TwentyOneGame;Integrated Security=True;
