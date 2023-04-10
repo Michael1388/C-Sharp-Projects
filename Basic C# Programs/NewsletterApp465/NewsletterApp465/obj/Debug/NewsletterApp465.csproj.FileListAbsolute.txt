@@ -1,3 +1,4 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.csproj.CoreCompileInputs.cache
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\NewsletterApp465.dll.config
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\NewsletterApp465.dll
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\NewsletterApp465.pdb
@@ -72,8 +73,10 @@ C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# P
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\Newtonsoft.Json.xml
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\Antlr3.Runtime.pdb
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.csproj.AssemblyReference.cache
-C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.csproj.CoreCompileInputs.cache
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.csproj.CopyComplete
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.dll
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.dll
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.SqlServer.dll
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.xml
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.SqlServer.xml
