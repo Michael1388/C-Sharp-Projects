@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewsletterApp465
+namespace NewsletterApp465.Models
 {
     using System;
     using System.Data.Entity;
@@ -16,7 +16,7 @@ namespace NewsletterApp465
     public partial class NewsletterEntities : DbContext
     {
         public NewsletterEntities()
-            : base("name=NewsletterEntities") //connection to db
+            : base("name=NewsletterEntities")
         {
         }
     

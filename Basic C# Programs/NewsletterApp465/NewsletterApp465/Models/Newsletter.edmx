@@ -5,8 +5,6 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="NewsletterModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Errors Found During Generation:
-warning 6002: The table/view 'Newsletter.dbo.Signups' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Signups">
           <Key>
             <PropertyRef Name="Id" />
@@ -15,18 +13,10 @@ warning 6002: The table/view 'Newsletter.dbo.Signups' does not have a primary ke
           <Property Name="FirstName" Type="varchar" MaxLength="50" />
           <Property Name="LastName" Type="varchar" MaxLength="50" />
           <Property Name="EmailAddress" Type="varchar" MaxLength="100" />
-          <Property Name="SocialSecurityNumber" Type="varchar" MaxLength="15" />
+          <Property Name="Removed" Type="datetime" />
         </EntityType>
         <EntityContainer Name="NewsletterModelStoreContainer">
-          <EntitySet Name="Signups" EntityType="Self.Signups" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Signups].[Id] AS [Id], 
-    [Signups].[FirstName] AS [FirstName], 
-    [Signups].[LastName] AS [LastName], 
-    [Signups].[EmailAddress] AS [EmailAddress], 
-    [Signups].[SocialSecurityNumber] AS [SocialSecurityNumber]
-    FROM [dbo].[Signups] AS [Signups]</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="Signups" EntityType="Self.Signups" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -40,7 +30,7 @@ warning 6002: The table/view 'Newsletter.dbo.Signups' does not have a primary ke
           <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
           <Property Name="EmailAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-          <Property Name="SocialSecurityNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Removed" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityContainer Name="NewsletterEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Signups" EntityType="Self.Signup" />
@@ -54,11 +44,11 @@ warning 6002: The table/view 'Newsletter.dbo.Signups' does not have a primary ke
           <EntitySetMapping Name="Signups">
             <EntityTypeMapping TypeName="NewsletterModel.Signup">
               <MappingFragment StoreEntitySet="Signups">
+                <ScalarProperty Name="Removed" ColumnName="Removed" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
                 <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
-                <ScalarProperty Name="SocialSecurityNumber" ColumnName="SocialSecurityNumber" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

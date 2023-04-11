@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NewsletterApp465
+namespace NewsletterApp465.Models
 {
     using System;
     using System.Collections.Generic;
@@ -18,6 +18,6 @@ namespace NewsletterApp465
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailAddress { get; set; }
-        public string SocialSecurityNumber { get; set; }
+        public Nullable<System.DateTime> Removed { get; set; }
     }
 }

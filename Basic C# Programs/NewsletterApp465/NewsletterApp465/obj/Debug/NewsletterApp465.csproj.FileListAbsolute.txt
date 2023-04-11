@@ -80,3 +80,4 @@ C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# P
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.SqlServer.dll
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.xml
 C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\bin\EntityFramework.SqlServer.xml
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\NewsletterApp465\NewsletterApp465\obj\Debug\NewsletterApp465.csproj.AssemblyReference.cache
