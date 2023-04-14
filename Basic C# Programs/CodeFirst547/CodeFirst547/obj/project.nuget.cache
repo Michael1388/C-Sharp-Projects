@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "45s3XF8TCdIXkpoYXjTziIMvs9LVoQtu/HI/dNkVzbxrdIZ5++7Z0pd/YMYAG1enSIf7y6IiDVA4yXLfW8hzgA==",
+  "dgSpecHash": "Ygg/LBFfFf+fObwTiu3aoxvcmZNkJKV82VSubqM5fwpSA+MTYbutkqspiikDphgF9rLdsvelwReNqCRGb9xDKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst547.csproj",
+  "projectFilePath": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst548.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

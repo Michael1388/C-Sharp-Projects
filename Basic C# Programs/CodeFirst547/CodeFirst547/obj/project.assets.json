@@ -1031,9 +1031,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst547.csproj",
-      "projectName": "CodeFirst547",
-      "projectPath": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst547.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst548.csproj",
+      "projectName": "CodeFirst548",
+      "projectPath": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\CodeFirst548.csproj",
       "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Michael\\Documents\\GitHub\\Tech-Academy-Basic-C-Sharp-Projects\\Basic C# Programs\\CodeFirst547\\CodeFirst547\\obj\\",
       "projectStyle": "PackageReference",
