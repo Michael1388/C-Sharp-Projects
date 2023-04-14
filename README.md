@@ -2,7 +2,7 @@
  
 C# Projects
 
-This repositrory houses the project files from my course in C# and .NET. course while at The Tech Academy.
+This repositrory houses the project files from my C# and .NET. course while at The Tech Academy.
 
 Projects
 
