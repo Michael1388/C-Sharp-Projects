@@ -1,0 +1,13 @@
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.exe
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.deps.json
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.runtimeconfig.json
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.runtimeconfig.dev.json
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.dll
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\bin\Debug\netcoreapp3.1\Scores525.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.csproj.AssemblyReference.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.AssemblyInfoInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.AssemblyInfo.cs
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.csproj.CoreCompileInputs.cache
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.dll
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.pdb
+C:\Users\Michael\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Basic C# Programs\Scores525\Scores525\obj\Debug\netcoreapp3.1\Scores525.genruntimeconfig.cache
